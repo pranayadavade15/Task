@@ -1,0 +1,55 @@
+<h1 mat-dialog-title>Add Product Form</h1>
+<div mat-dialog-content>
+   <form [formGroup]="productForm">
+    <mat-form-field appearance="fill">
+        <mat-label>Product ID</mat-label>
+        <mat-select formControlName="productId" placeholder="Enter a Product Id">
+        <mat-option value="PR015">PR015</mat-option>
+        <mat-option value="PR169">PR169</mat-option>
+        <mat-option value="PR002">PR002</mat-option>
+        </mat-select>
+        </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Name</mat-label>
+        <input formControlName="productName" matInput placeholder="Product Name ">
+        </mat-form-field>
+    <mat-form-field appearance="fill">
+            <mat-label>Category ID</mat-label>
+            <mat-select formControlName="categoryId" placeholder="Enter a Category Id">
+            <mat-option value="C110">C110</mat-option>
+            <mat-option value="C200">C200</mat-option>
+            <mat-option value="C325">C325</mat-option>
+            </mat-select>
+            </mat-form-field>
+    <mat-form-field appearance="outline">
+        <mat-label>Product Category</mat-label>
+        <mat-select formControlName="category" placeholder="Category">
+            <mat-option value="Smart Phones">Smart Phones</mat-option>
+            <mat-option value="TVs And Appliances">TVs And Appliances</mat-option>
+            <mat-option value="Computers & Accessories">Computers & Accessories</mat-option>
+        </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Choose a date</mat-label>
+            <input formControlName="date" matInput [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+          <label for=""><h1>Product Durability</h1></label>
+        <mat-radio-group formControlName="durability" class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let fresh of freshnessList" [value]="fresh">
+                {{fresh}}
+            </mat-radio-button>
+          </mat-radio-group>
+          <mat-form-field appearance="outline">
+            <mat-label>Price</mat-label>
+            <input formControlName="price" matInput type="number" placeholder="Enter Price">
+            </mat-form-field>
+   </form>
+          
+            <div mat-dialog-action [align]="'end'">
+            <button mat-flat-button color="warn" mat-dialog-close>Close</button>
+            <button style="margin-left: 8px;" mat-flat-button color="primary" (click)="addProduct()">{{actionBtn}}</button>
+            </div>
+</div>

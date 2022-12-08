@@ -1,0 +1,104 @@
+{
+  "productList": [
+    {
+      "productId": "PR002",
+      "productName": "DELL E2",
+      "categoryId": "C325",
+      "category": "Computers & Accessories",
+      "durability": "Brand New",
+      "price": 45000,
+      "date": "2022-12-02T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productId": "PR015",
+      "productName": "LG Smart Tv",
+      "categoryId": "C200",
+      "category": "TVs And Appliances",
+      "durability": "Second Hand",
+      "price": 25000,
+      "date": "2022-05-11T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productId": "PR169",
+      "productName": "iphone 13 pro Max",
+      "categoryId": "C110",
+      "category": "Smart Phones",
+      "durability": "Brand New",
+      "price": 119900,
+      "date": "2022-12-05T18:30:00.000Z",
+      "id": 3
+    },
+    {
+      "productId": "PR015",
+      "productName": "realme 8 pro",
+      "categoryId": "C110",
+      "category": "Smart Phones",
+      "durability": "Second Hand",
+      "price": 22500,
+      "date": "2022-10-19T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "productId": "PR002",
+      "productName": "Boat LED TV",
+      "categoryId": "C200",
+      "category": "TVs And Appliances",
+      "durability": "Refurbished",
+      "price": 27699,
+      "date": "2022-12-01T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "productId": "PR169",
+      "productName": "Apple MacBook 13 pro",
+      "categoryId": "C325",
+      "category": "Computers & Accessories",
+      "durability": "Refurbished",
+      "price": 68650,
+      "date": "2022-11-30T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "productId": "PR169",
+      "productName": "HP Envy x360",
+      "categoryId": "C325",
+      "category": "Computers & Accessories",
+      "durability": "Brand New",
+      "price": 74000,
+      "date": "2022-11-23T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "productId": "PR169",
+      "productName": "ONIDA 32inch smartTV",
+      "categoryId": "C200",
+      "category": "TVs And Appliances",
+      "durability": "Second Hand",
+      "price": 26550,
+      "date": "2022-11-01T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "productId": "PR169",
+      "productName": "Samsung TV",
+      "categoryId": "C200",
+      "category": "TVs And Appliances",
+      "durability": "Brand New",
+      "price": 45000,
+      "date": "2022-12-01T18:30:00.000Z",
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
